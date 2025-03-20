@@ -1,12 +1,13 @@
 module.exports = {
     modmail: {
-        ownerID: '', // ← Insert the Server Owner ID.
-        supportId: '', // ← Insert General Support Category ID.
-        premiumId: '', // ← Insert Premium Support Category ID.
-        whitelist: '', // ← Insert Whitelist Role ID (People with this role are allowed to manage tickets).
-        staff: '', // ← Insert Staff Role to be pinged upon ticket creation.
+        ownerID: "538410415617736714", // Server Owner ID
+        supportId: "1352037286249894028", // Support Category ID
+        premiumId: "1352037462955786260", // Premium Support Category ID
+        whitelist: "1340001503267786874", // Whitelist Role ID
+        staff: "1352307657440100413", // Staff Role to be pinged upon ticket creation
+        question: "1352303490889678979", // Quiestion Category ID
     },
     logs: {
-        logschannel: '' // ← Insert Ticket Logs Channel ID.
-    }
+        logschannel: "1352038401381236777", // Ticket Logs Channel ID
+    },
 };
